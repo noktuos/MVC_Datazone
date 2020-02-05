@@ -1,0 +1,6 @@
+
+ksquid:UselessImportCheck"@Remove this unused import 'com.example.services.ClienteService'.(†ŒÎ8Û¥”.
+ƒsquid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Û¥”.
+bsquid:UselessImportCheck"7Remove this unused import 'com.example.models.Cliente'.(‰Ï–¸8òí¤”.
+[squid:UselessImportCheck
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8òí¤”.

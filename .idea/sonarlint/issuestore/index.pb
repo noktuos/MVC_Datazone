@@ -13,3 +13,7 @@ c
 3src/main/java/com/example/utility/UrlConstants.java,b\1\b1415bf0116ff9fd9120d1f10b06681a8f4803d3
 m
 =src/main/java/com/example/repositories/ClienteRepository.java,1\d\1d5a027b0dedfc028533076dcafa8b17b223e846
+l
+<src/main/java/com/example/controllers/ClienteController.java,9\f\9fbdf4aab9be8be1dec35c4a54294fe6c7f112fa
+t
+Dsrc/main/java/com/example/restControllers/ClienteRestController.java,9\3\932121a8da0a710a755d5a22d9d269b453f1b733

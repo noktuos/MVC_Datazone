@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-<!-- Incluir archivos para boostrap y angular -->
+    <!-- Incluir archivos para boostrap y angular -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/lib/angular.min.js"></script>
-    <script src="js/app/clienteApp.js/"></script>
+    <script src="js/lib/app/cliente/clienteApp.js/"></script>
 
 
 </head>
 <!-- Enlace de Angular con el HTML -->
-<body ng-app="clienteModule" ng-controller="clienteController">
+<body ng-app="clienteModule" ng-controller="clienteController" >
 
 <div class="container">
     <h1>Clientes</h1>
@@ -27,6 +27,8 @@
         </thead>
 
         <tbody>
+
+
         <tr ng-repeat="cliente in clientes">
 
             <td>{{cliente.codigo}}</td>
@@ -39,7 +41,21 @@
 
         </tbody>
 
+
+
     </table>
+    <form action="">
+
+        Codigo
+        <input type="text" ng-model="cliente.codigo">
+        Nombre
+        <input type="text" ng-model="cliente.nombreCliente">
+        Direccion
+        <input type="text" ng-model="cliente.direccion">
+        Telefono
+        <input type="text" ng-model="cliente.telefono">
+        <button ng-click="save(cliente)">ok</button>
+    </form>
 </div>
 
 
